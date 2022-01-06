@@ -1,7 +1,8 @@
 // Custom variables
 @import "./navbar";
+@import "./custom";
 
-$primary: #c29938;
+$skyBlue: #F6F8FD;
 $light: #fbf5e5;
 
 // import the functions & variables
@@ -12,6 +13,7 @@ $custom-theme-colors: (
     'altlight': #f2ebfa,
     'altdark': #522192
 );
+
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
